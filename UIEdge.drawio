@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="XPMNJNxqw-vfsfK_Nyy_">
+    <mxGraphModel dx="1426" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-40" value="CI/CD Tooling" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="852" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-41" value="Platform &amp; Security" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="958" y="149" width="362" height="561" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-42" value="Stateful Backing Services" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="588" y="431" width="335" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-43" value="Redis (Session, Non-PHI)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="JKLjetTp3sh5pP2CvB0a-42">
+          <mxGeometry x="59" y="31.571052631578944" width="233" height="39.647368421052626" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-44" value="PostgreSQL (Tokenized Consent)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="JKLjetTp3sh5pP2CvB0a-42">
+          <mxGeometry x="46" y="107.92894736842105" width="260" height="57.268421052631574" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-45" value="Object Storage (Immutable Audit)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="JKLjetTp3sh5pP2CvB0a-42">
+          <mxGeometry x="46" y="201.90789473684208" width="260" height="57.268421052631574" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-46" value="Vault + HSM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="970" y="594" width="144" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-47" value="OPA Gatekeeper" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="594" width="175" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-48" value="OpenTelemetry Collector" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1019.5" y="327" width="239" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-49" value="Elastic / Grafana" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1048" y="496" width="182" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-50" value="Service Mesh Resilience (Circuit Breakers / Retries)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="993" y="174" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-51" value="Jenkins Pipelines" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="404" y="45" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-52" value="Wiz / SonarQube / Black Duck" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="174" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-53" value="Enterprise Container Registry" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="365" y="174" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-54" value="FluxCD GitOps" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="675" y="186" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-55" value="Domain Services" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="668" y="327" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.35;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-50" target="JKLjetTp3sh5pP2CvB0a-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1308" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-51" target="JKLjetTp3sh5pP2CvB0a-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-51" target="JKLjetTp3sh5pP2CvB0a-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-51" target="JKLjetTp3sh5pP2CvB0a-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-54" target="JKLjetTp3sh5pP2CvB0a-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-48" target="JKLjetTp3sh5pP2CvB0a-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-55" target="JKLjetTp3sh5pP2CvB0a-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-63" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="JKLjetTp3sh5pP2CvB0a-55" target="JKLjetTp3sh5pP2CvB0a-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-64" value="&lt;h2 tabindex=&quot;-1&quot; class=&quot;heading-element&quot; dir=&quot;auto&quot; style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 0.8px solid rgba(209, 217, 224, 0.7); color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Data, Security &amp;amp; DevSecOps&lt;/h2&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-40" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JKLjetTp3sh5pP2CvB0a-65" value="&lt;p dir=&quot;auto&quot; style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 600;&quot;&gt;Highlights&lt;/span&gt;&lt;/p&gt;&lt;ul dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Data layer stores only tokenized consent/preferences and immutable audit logs; no long-lived PHI.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Vault, OPA, service-mesh resilience (circuit breakers/retries), and OTel enforce zero-trust and observability.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Jenkins pipelines integrate security scans and GitOps (FluxCD) to keep environments in sync.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="44" y="460" width="496" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

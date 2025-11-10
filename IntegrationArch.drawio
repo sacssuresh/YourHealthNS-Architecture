@@ -1,0 +1,291 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="JJGYt1RxkP0QNXHQcqI9">
+    <mxGraphModel dx="2377" dy="2395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-1" value="Provincial Source Systems" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f9f7ed;strokeColor=#36393d;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2212" y="301" width="236" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-2" value="OpenShift Service Mesh (mTLS)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f9f7ed;strokeColor=#36393d;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="347" y="20" width="1633" height="1142" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-3" value="Trust &amp; Policy" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="760" y="674" width="310" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-4" value="Messaging &amp; Audit Spine" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="372" y="946" width="1141" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-5" value="Domain Services" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="372" y="117" width="1141" height="537" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-6" value="Contract Gateways" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1692" y="40" width="263" height="881" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-7" value="Channel BFF Layer" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="122" width="197" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-8" value="Mobile BFF&#xa;(REST JSON)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="45" y="198" width="147" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-9" value="Web BFF&#xa;(REST JSON)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="45" y="326" width="147" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-10" value="FHIR Gateway&#xa;(REST, SMART scopes)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1717" y="416" width="213" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-11" value="HL7v2 Adapter&#xa;(MLLP / TLS)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1741" y="595" width="164" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-12" value="DICOM Adapter&#xa;(DICOMweb)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="808" width="167" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-13" value="Health Records Orchestrator" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1229" y="320" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-14" value="Appointments API" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="216" width="186" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-15" value="Consent Service&#xa;(Token Ledger)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="411" y="437" width="174" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-16" value="Notification Service" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="397" y="565" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-17" value="AMQ Streams (Kafka)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="981" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-18" value="Schema Registry" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1002" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-19" value="Outbox Topics" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1279" y="1002" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-20" value="Vault-Issued Workload Certificates" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="785" y="709" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-21" value="OPA Gatekeeper" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="827" y="837" width="175" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-22" value="EHR / EMR&#xa;(HL7v2, FHIR)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2251" y="336" width="158" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-23" value="Lab Systems&#xa;(HL7v2 ORU/RDE)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2237" y="552" width="186" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-24" value="Appoint. Mgmt&#xa;(REST / SOAP)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2248" y="680" width="165" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-25" value="PACS / Imaging&#xa;(DICOMweb)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2247" y="808" width="167" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-26" value="REST JSON" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0;entryY=0.33;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-8" target="d82t4XiYf-HYmDnLhYt2-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="337" />
+              <mxPoint x="1149" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-27" value="REST JSON" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0;entryY=0.84;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-9" target="d82t4XiYf-HYmDnLhYt2-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="402" />
+              <mxPoint x="1149" y="402" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-28" value="REST JSON" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=0;entryX=0.02;entryY=0;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-8" target="d82t4XiYf-HYmDnLhYt2-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="179" />
+              <mxPoint x="1149" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-29" value="REST JSON" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=0;entryX=0;entryY=0.8;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-9" target="d82t4XiYf-HYmDnLhYt2-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="279" />
+              <mxPoint x="1149" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-30" value="REST JSON" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1;entryX=0;entryY=0.31;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-8" target="d82t4XiYf-HYmDnLhYt2-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="454" />
+              <mxPoint x="372" y="454" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-31" value="REST JSON" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0;entryY=0.82;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-9" target="d82t4XiYf-HYmDnLhYt2-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="512" />
+              <mxPoint x="372" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-32" value="REST JSON" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=1;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-8" target="d82t4XiYf-HYmDnLhYt2-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-33" value="FHIR R4" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0;entryX=0.39;entryY=-0.01;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-13" target="d82t4XiYf-HYmDnLhYt2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1514" y="225" />
+              <mxPoint x="1692" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-34" value="FHIR R4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.78;entryX=0.37;entryY=-0.01;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-14" target="d82t4XiYf-HYmDnLhYt2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1514" y="268" />
+              <mxPoint x="1692" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-35" value="REST + SMART" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-10" target="d82t4XiYf-HYmDnLhYt2-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1955" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-36" value="REST + OAuth" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0.99;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-10" target="d82t4XiYf-HYmDnLhYt2-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1955" y="719" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-37" value="HL7 message" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.14;entryY=-0.01;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-13" target="d82t4XiYf-HYmDnLhYt2-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1514" y="369" />
+              <mxPoint x="1603" y="548" />
+              <mxPoint x="1692" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-38" value="MLLP/TLS" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.15;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-11" target="d82t4XiYf-HYmDnLhYt2-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1955" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-39" value="MLLP/TLS" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=-0.01;entryX=0.28;entryY=1;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-11" target="d82t4XiYf-HYmDnLhYt2-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1955" y="505" />
+              <mxPoint x="2212" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-40" value="DICOM query" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-13" target="d82t4XiYf-HYmDnLhYt2-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1514" y="603" />
+              <mxPoint x="1603" y="847" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-41" value="DICOMweb (QIDO/WADO)" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-12" target="d82t4XiYf-HYmDnLhYt2-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-42" value="Event" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.45;entryY=0;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-16" target="d82t4XiYf-HYmDnLhYt2-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-43" value="Outbox Replay" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.35;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-17" target="d82t4XiYf-HYmDnLhYt2-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1149" y="1008" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-44" value="Schema-enforced" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=1;entryX=0.01;entryY=0.99;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-19" target="d82t4XiYf-HYmDnLhYt2-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1514" y="1082" />
+              <mxPoint x="1603" y="697" />
+              <mxPoint x="1692" y="697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-45" value="Schema-enforced" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.19;entryX=0.02;entryY=0.99;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-19" target="d82t4XiYf-HYmDnLhYt2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1514" y="997" />
+              <mxPoint x="1603" y="505" />
+              <mxPoint x="1692" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-46" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.99;exitY=0.31;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-18" target="d82t4XiYf-HYmDnLhYt2-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="1008" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-47" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.99;exitY=0.97;entryX=0;entryY=0.87;rounded=0;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-18" target="d82t4XiYf-HYmDnLhYt2-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="1082" />
+              <mxPoint x="1149" y="1082" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-48" value="Token Issuance" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.41;entryY=0;rounded=0;fontSize=15;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-15" target="d82t4XiYf-HYmDnLhYt2-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=1;entryX=0.36;entryY=1;rounded=0;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-20" target="d82t4XiYf-HYmDnLhYt2-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="796" />
+              <mxPoint x="1149" y="593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.31;entryX=0.09;entryY=1;rounded=0;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-20" target="d82t4XiYf-HYmDnLhYt2-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="731" />
+              <mxPoint x="1149" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-51" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="d82t4XiYf-HYmDnLhYt2-21" target="d82t4XiYf-HYmDnLhYt2-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-52" value="&lt;h1 id=&quot;integration-architecture--provincial-interoperability&quot; data-source-line=&quot;1&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; line-height: 1.2; margin-top: 1em; margin-bottom: 16px; padding-bottom: 0.3em; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, freesans, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;Integration Architecture – Provincial Interoperability&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-120" width="1090" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-55" value="&lt;ul data-source-line=&quot;123&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; padding-left: 2em; margin-top: 0px; margin-bottom: 16px; list-style-position: initial; list-style-image: initial; color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, freesans, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li data-source-line=&quot;123&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“FHIR-first façade”&lt;/strong&gt;: Normalize everything into FHIR R4 before exposing it to channels, keeping client contracts consistent.&lt;/li&gt;&lt;li data-source-line=&quot;124&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“HL7 with poison queue”&lt;/strong&gt;: Dead-letter handling and schema validation.&lt;/li&gt;&lt;li data-source-line=&quot;125&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“DICOMweb tap”&lt;/strong&gt;: Never cache PHI, only display via signed URLs.&lt;/li&gt;&lt;li data-source-line=&quot;126&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“Kafka outbox spine”&lt;/strong&gt;: Every integration event goes through the outbox pattern—replayable, ordered, audited.&lt;/li&gt;&lt;li data-source-line=&quot;127&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“Zero-trust mesh”&lt;/strong&gt;: mTLS identities, circuit breakers, and OPA policies guard every provincial call.&lt;/li&gt;&lt;li data-source-line=&quot;128&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“Tokenized consent ledger”&lt;/strong&gt;: SMART scopes minted from our consent store; tokens are opaque and short-lived.&lt;/li&gt;&lt;li data-source-line=&quot;129&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“Correlation-first observability”&lt;/strong&gt;: OTel decorates calls, so provincial ops and our SREs share the same trace IDs.&lt;/li&gt;&lt;li data-source-line=&quot;130&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; margin-bottom: 0px;&quot;&gt;&lt;strong style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0);&quot;&gt;“Fail-safe adapters”&lt;/strong&gt;: Each adapter runs in its own namespace with canary releases and backpressure to protect core services.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1420" width="1570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d82t4XiYf-HYmDnLhYt2-56" value="&lt;h2 id=&quot;integration-strategy-overview&quot; data-source-line=&quot;95&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; line-height: 1.2; margin-top: 1em; margin-bottom: 16px; padding-bottom: 0.3em; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, freesans, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Integration Strategy Overview&lt;/h2&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="97" y="1240" width="490" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

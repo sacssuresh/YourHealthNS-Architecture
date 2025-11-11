@@ -1,99 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="geWe3INhj3shGYNvE1Ex">
-    <mxGraphModel dx="2194" dy="2295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-48" value="External Systems (Partner / Provincial Network)&#xa;VLAN 30 – 172.16.0.0/24" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="1747" y="20" width="708" height="300" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-48" value="External Systems (Partner / Provincial Network)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="150" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-49" value="Private Zone (Internal App Layer)&#xa;VLAN 20 – 10.20.0.0/24" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1747" y="340" width="708" height="324" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-49" value="Private Zone (Internal App Layer)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="330" width="708" height="324" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-50" value="DMZ Zone (Public-Facing)&#xa;VLAN 10 – 10.10.0.0/24" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="461" y="404" width="1147" height="196" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-50" value="DMZ Zone (Public-Facing)&#xa;Private Subnet" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="461" y="404" width="759" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-53" value="FortiGate Firewall&#xa;ACL: Allow 443 from Internet, Deny All Else" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-53" value="WAF / Edge Firewall&#xa;ACL: Allow 443 from Internet, Deny All Else" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="486" y="451" width="260" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-54" value="Edge Router (R1)&#xa;Interface Gi0/0 – 10.10.0.1&#xa;Default Route → Internet" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1323" y="439" width="260" height="126" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-54" value="Internal Gateway / Policy Firewall" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="904.5" y="439" width="260" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-55" value="Cisco Switch (SW1)&#xa;Ports 1–8: Web / API Tier" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="906" y="463" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="slK5HS5KKe1rOqSnCZXG-56" target="slK5HS5KKe1rOqSnCZXG-59">
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="slK5HS5KKe1rOqSnCZXG-56" target="slK5HS5KKe1rOqSnCZXG-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-56" value="Internal Firewall&#xa;ACL: Allow 443,1433 from DMZ; Restrict External" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1772" y="451" width="260" height="102" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-56" value="Internal Firewall – Enforces mTLS; restricts all non-whitelisted traffic." style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="451" width="260" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-57" value="Core Router (R2)&#xa;Gi0/0 – 10.20.0.1&#xa;Static Route → 10.10.0.0/24" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="375" width="260" height="102" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-58" value="App + Database Layer (Private)&#xa;OpenShift Pods, Domain APIs, Postgres, Redis" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="439" width="260" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-58" value="Cisco Switch (SW2)&#xa;Ports 9–16: App + Database Servers" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="527" width="260" height="102" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-59" value="Partner Firewall&#xa;ACL &amp; Restricted Peering" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="190" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-59" value="Partner Firewall&#xa;ACL: IPSec VPN Only" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1772" y="200" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-60" value="Edge Router (R3)&#xa;Gi0/0 – 172.16.0.1&#xa;BGP Peering ASN 65001↔65002" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1772" y="40" width="260" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-61" value="Cisco Switch (SW3)&#xa;Ports 17–24: External Peering Interfaces" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="40" width="260" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-62" value="https://yourhealthns.ca 443 HTTPS" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" edge="1" parent="1" target="slK5HS5KKe1rOqSnCZXG-53">
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-62" value="https://www.yourhealthns.ca/ over HTTPS (TLS 1.3)" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" parent="1" target="slK5HS5KKe1rOqSnCZXG-53" edge="1">
           <mxGeometry x="-0.4016" y="22" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="616" y="213" as="sourcePoint" />
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-63" value="Forwarded 443" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="slK5HS5KKe1rOqSnCZXG-53" target="slK5HS5KKe1rOqSnCZXG-55">
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-63" value="Forwarded 443" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=15;" parent="1" source="slK5HS5KKe1rOqSnCZXG-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="906" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-65" value="Private Link" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="1" source="slK5HS5KKe1rOqSnCZXG-54" target="slK5HS5KKe1rOqSnCZXG-56" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-64" value="Internal Route" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="slK5HS5KKe1rOqSnCZXG-55" target="slK5HS5KKe1rOqSnCZXG-54">
-          <mxGeometry x="-0.0041" relative="1" as="geometry">
-            <Array as="points" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-66" value="mTLS" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=15;exitDx=0;exitDy=0;" parent="1" source="slK5HS5KKe1rOqSnCZXG-56" target="slK5HS5KKe1rOqSnCZXG-58" edge="1">
+          <mxGeometry x="-0.0014" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="502" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-65" value="Private Link" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="slK5HS5KKe1rOqSnCZXG-54" target="slK5HS5KKe1rOqSnCZXG-56">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-66" value="mTLS + SQL" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.99;entryX=0;entryY=0.5;rounded=0;fontSize=15;" edge="1" parent="1" source="slK5HS5KKe1rOqSnCZXG-56" target="slK5HS5KKe1rOqSnCZXG-58">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2101" y="578" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="slK5HS5KKe1rOqSnCZXG-60" target="slK5HS5KKe1rOqSnCZXG-61">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-73" value="Public Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-73" value="Public Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="414" y="50" width="404" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-75" value="&lt;b&gt;Untrusted Network&lt;/b&gt; : User requests (HTTPS 443) originate from public internet and terminate at the external firewall within DMZ. TLS 1.3 enforced; only ports 443/80 exposed" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-75" value="&lt;b&gt;Untrusted Network&lt;/b&gt; : Public Internet — HTTPS (TLS 1.3) only; traffic terminates at WAF / CDN" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="650" y="10" width="580" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-76" value="&lt;b&gt;Semi-Trusted &lt;/b&gt;: Hosts public-facing reverse proxies, API gateway, and edge load balancers" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="510" y="650" width="490" height="30" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-76" value="&lt;b&gt;Semi-Trusted &lt;/b&gt;: Reverse proxies + API Gateway; OIDC / PKCE enforced at edge." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="510" y="680" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-77" value="&lt;b&gt;Trusted Network&lt;/b&gt; :&amp;nbsp;No public IPs, access restricted via jump host or VPN only.&amp;nbsp;&lt;div&gt;Strict ACLs permit only HTTPS and SQL traffic from DMZ&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="740" width="640" height="30" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-77" value="&lt;b&gt;Trusted Network&lt;/b&gt; : No public IPs; mTLS + Zero-Trust mesh; access via VPN / jump host only.&amp;nbsp;&lt;div&gt;Encrypted data at rest; PHI access via Consent &amp;amp; OPA policies; WORM audit enabled.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="740" width="640" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-78" value="&lt;b&gt;Restricted / Partner Network &lt;/b&gt;: Traffic limited to specific healthcare API endpoints via firewall ACLs.&lt;div&gt;VPN tunnel for data exchange&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="-140" width="390" height="40" as="geometry" />
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-78" value="&lt;b&gt;Restricted / Partner Network &lt;/b&gt;: Secure VPN link; access limited to approved healthcare API endpoints." style="text;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1393" y="-150" width="390" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="slK5HS5KKe1rOqSnCZXG-79" value="Logical Network Topology Overview" style="text;whiteSpace=wrap;html=1;fontSize=25;fontStyle=1;align=center;" vertex="1" parent="1">
+        <mxCell id="slK5HS5KKe1rOqSnCZXG-79" value="Logical Network Topology Overview" style="text;whiteSpace=wrap;html=1;fontSize=25;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="461" y="-140" width="499" height="40" as="geometry" />
         </mxCell>
       </root>
